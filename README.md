@@ -1,113 +1,115 @@
 # CalcDesk
-
-A clean Java Swing desktop calculator application built in NetBeans IDE.
-
+ 
+A Java-based scientific calculator application built with Java Swing in NetBeans IDE.
+ 
 ## Overview
-
-CalcDesk is a desktop calculator project developed using **Java Swing** and **NetBeans IDE**.
-It provides a simple, responsive, and user-friendly interface for performing basic arithmetic operations.
-
-This project was built to strengthen my understanding of:
-
-* Java GUI development
-* Event-driven programming
-* Desktop application structure
-* Input handling and validation
-
+ 
+CalcDesk is a desktop scientific calculator developed using **Java Swing** and **NetBeans IDE**. It provides a graphical interface for performing both basic arithmetic and advanced scientific calculations in a clean and responsive layout.
+ 
+This project was created as an academic and portfolio project to practice:
+ 
+- Java GUI development
+- Event-driven programming
+- Scientific function handling
+- Desktop application structure
+- User interface design
 ## Features
-
-* Basic arithmetic operations
-* Clear and reset functionality
-* Decimal number support
-* Button-based graphical interface
-* Responsive layout
-* Error handling for invalid input
-
-## Tech Stack
-
-* Java
-* Swing
-* NetBeans IDE
-
+ 
+### Basic Operations
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Percentage
+- Decimal input
+- Clear (`AC`)
+- Delete (`DEL`)
+### Scientific Functions
+- Square root (`√`)
+- Square (`x²`)
+- Reciprocal (`1/x`)
+- Factorial (`x!`)
+- Power operation
+- Logarithm (`lg`)
+- Natural logarithm (`ln`)
+- Absolute value (`|x|`)
+- Random number generation (`Rnd`)
+- Mathematical constants (`π`, `e`)
+- Trigonometric functions (`sin`, `cos`, `tan`)
+- Inverse trigonometric functions on 2nd mode (`sin⁻¹`, `cos⁻¹`, `tan⁻¹`)
+- Degree/Radian toggle (`RAD/DEG`)
+- Second function mode (`2nd`)
+## Technologies Used
+ 
+- Java
+- Java Swing
+- NetBeans IDE
+- AWT Event Handling
 ## Screenshots
-
-Add clean screenshots in the `screenshots/` folder and reference them here.
-
-### 1. Main Interface
-
-A full-window screenshot showing the complete calculator layout.
-
-### 2. Calculation Example
-
-A screenshot showing a real calculation in progress, such as `10 + 5 = 15`.
-
-### 3. Error Handling
-
-A screenshot showing how the application responds to invalid input or divide-by-zero, if supported.
-
-Example:
-
-```md
+ 
+### Main Interface
 ![Main Interface](screenshots/main-interface.png)
+ 
+### Calculation Example
 ![Calculation Example](screenshots/calculation-example.png)
+ 
+### Error State
 ![Error State](screenshots/error-state.png)
-```
-
+ 
 ## Project Structure
-
+ 
 ```bash
 calcdesk/
-├── src/
 ├── screenshots/
+│   ├── main-interface.png
+│   ├── calculation-example.png
+│   └── error-state.png
+├── src/
 ├── README.md
 └── .gitignore
 ```
-
+ 
 ## How It Works
-
-1. The user enters numbers using the calculator buttons.
-2. The selected operation is stored.
-3. Pressing `=` triggers the calculation.
-4. The result is displayed on the screen.
-
+ 
+1. The user enters values using the on-screen buttons.
+2. The chosen operation is stored by the application.
+3. Pressing the equals button evaluates the expression.
+4. The result is displayed in the output field.
+5. The `2nd` button switches to inverse trigonometric functions.
+6. The `RAD/DEG` toggle changes the angle mode for trigonometric calculations.
 ## How to Run
-
+ 
 1. Clone the repository:
-
-   ```bash
+```bash
    git clone https://github.com/your-username/CalcDesk.git
-   ```
-
-2. Open the project in **NetBeans IDE**.
-
-3. Build and run the project.
-
-4. Use the calculator interface to perform calculations.
-
+```
+2. Open the project in NetBeans IDE.
+3. Build the project.
+4. Run the application from NetBeans.
 ## Learning Outcome
-
-Through this project, I improved my understanding of:
-
-* Java Swing components
-* Action listeners and event handling
-* GUI layout design
-* Program flow and validation
-* Debugging in NetBeans
-
+ 
+This project helped me improve my understanding of:
+ 
+- Java Swing components
+- Button event handling
+- Scientific calculator logic
+- GUI layout design
+- Java desktop application development
+- Debugging and testing in NetBeans
 ## Future Improvements
-
-Possible future upgrades:
-
-* Scientific calculator functions
-* Calculation history
-* Keyboard input support
-* Dark mode UI
-* Better visual polish
-
+ 
+Possible future enhancements include:
+ 
+- Calculation history
+- Keyboard input support
+- Memory functions
+- Better UI styling
+- Theme customization
+- Expression parsing for more complex inputs
 ## Author
-
+ 
 **Abdur Rahman**
-
+ 
 ## License
-
+ 
 This project is shared for educational and portfolio purposes.
