@@ -39,7 +39,7 @@ A full-window screenshot showing the complete calculator layout.
 
 ### 2. Calculation Example
 
-A screenshot showing a real calculation in progress, such as `12 + 8 = 20`.
+A screenshot showing a real calculation in progress, such as `10 + 5 = 15`.
 
 ### 3. Error Handling
 
@@ -75,7 +75,7 @@ calcdesk/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/calcdesk.git
+   git clone https://github.com/your-username/CalcDesk.git
    ```
 
 2. Open the project in **NetBeans IDE**.
